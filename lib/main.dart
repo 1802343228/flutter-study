@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 //import 'package:hello/first_week/day01_button.dart';
 //import 'first_week/day02_text.dart';
 //import 'first_week/day03_image.dart';
-import 'first_week/day04_input.dart';
+//import 'first_week/day04_input.dart';
+import 'first_week/day05_table.dart';
 
 void main(){
   runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Day04(),
+      home: Day05(),
       // home:Scaffold(
       //   appBar:AppBar(
       //     title:Text('Welconme to Flutter')
