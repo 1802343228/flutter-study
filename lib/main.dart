@@ -5,7 +5,10 @@ import 'package:flutter/material.dart';
 //import 'first_week/day04_input.dart';
 //import 'first_week/day05_table.dart';
 // import 'first_week/day06_animation.dart';
-import 'first_week/day07_Container.dart';
+//import 'first_week/day07_Container.dart';
+//import 'first_week/day08_scaffold.dart';
+// import 'first_week/day09_ins.dart';
+import 'first_week/day10_custon_scroll_view.dart';
 
 void main(){
   runApp(MyApp());
@@ -23,7 +26,7 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Day07(),
+      home: Day10(),
       // home:Scaffold(
       //   appBar:AppBar(
       //     title:Text('Welconme to Flutter')
