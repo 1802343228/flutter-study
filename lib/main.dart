@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+// import 'package:hello/test/test3.dart';
 //import 'package:hello/first_week/day01_button.dart';
 //import 'first_week/day02_text.dart';
 //import 'first_week/day03_image.dart';
@@ -12,7 +13,17 @@ import 'package:flutter/material.dart';
 // import 'first_week/day11_listview.dart';
 // import 'first_week/day12_grid_view.dart';
 // import 'first_week/day13_listenerground.dart';
-import 'first_week/day14_table.dart';
+// import 'first_week/day14_table.dart';
+// import 'first_week/day15_gesture_detector.dart';
+// import 'first_week/day16_keywords_event.dart';
+// import 'first_week/day17_dio.dart';
+// import 'first_week/day18_data.dart';
+// import 'first_week/day19_router.dart';
+// import 'first_week/day20_router2.dart';
+// import 'first_week/day21_easyrefresh.dart';
+import 'first_week/day22_animation.dart';
+
+
 void main(){
   runApp(MyApp());
 } 
@@ -29,7 +40,10 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Day14(),
+      home: Day22(),
+      // routes: <String,WidgetBuilder> {
+      //   'test3':(BuildContext context) => Test3(),
+      // },
       // home:Scaffold(
       //   appBar:AppBar(
       //     title:Text('Welconme to Flutter')
