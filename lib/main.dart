@@ -21,8 +21,8 @@ import 'package:flutter/material.dart';
 // import 'first_week/day19_router.dart';
 // import 'first_week/day20_router2.dart';
 // import 'first_week/day21_easyrefresh.dart';
-import 'first_week/day22_animation.dart';
-
+// import 'first_week/day22_animation.dart';
+import 'first_week/day23_shared_preferences.dart';
 
 void main(){
   runApp(MyApp());
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget{
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Day22(),
+      home: Day23(),
       // routes: <String,WidgetBuilder> {
       //   'test3':(BuildContext context) => Test3(),
       // },
