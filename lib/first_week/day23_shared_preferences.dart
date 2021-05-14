@@ -39,7 +39,7 @@ class _Day23State extends State<Day23> with SingleTickerProviderStateMixin{
                   controller: _userNameController,
                   decoration: InputDecoration(
                     contentPadding:const EdgeInsets.only(top:10.0),
-                    icon:Icon(Icon.perm_identity),
+                   // icon:Icon(Icon.),
                     labelText: "请输入用户名",
                     helperText: "注册时填写的名字"),
                 ),
