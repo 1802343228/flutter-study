@@ -22,7 +22,12 @@ import 'package:flutter/material.dart';
 // import 'first_week/day20_router2.dart';
 // import 'first_week/day21_easyrefresh.dart';
 // import 'first_week/day22_animation.dart';
-import 'first_week/day23_shared_preferences.dart';
+// import 'first_week/day23_shared_preferences.dart';
+// import 'restart/text_style.dart';
+import 'restart/container_text.dart';
+
+
+
 
 void main(){
   runApp(MyApp());
@@ -31,16 +36,26 @@ void main(){
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
-    
     return MaterialApp(
-      //去除右上角debug
-      debugShowCheckedModeBanner: false,
-      title:'Welcome to Flutter',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Day23(),
+      home:Scaffold(
+        appBar: AppBar(
+          title:Text('Flutter Demo')
+        ),
+        body: Conta(),
+        ),
+        theme: ThemeData(//配置应用颜色主题
+          primarySwatch: Colors.yellow
+        ),
+    );
+    // return MaterialApp(
+    //   //去除右上角debug
+    //   debugShowCheckedModeBanner: false,
+    //   title:'Welcome to Flutter',
+    //   theme: ThemeData(
+    //     primarySwatch: Colors.blue,
+    //     visualDensity: VisualDensity.adaptivePlatformDensity,
+    //   ),
+    //   home: Day23(),
       // routes: <String,WidgetBuilder> {
       //   'test3':(BuildContext context) => Test3(),
       // },
@@ -52,7 +67,7 @@ class MyApp extends StatelessWidget{
         //   child: Text('hello world'),
         //   ),
       //),
-      );
+      // );
   }
 }
 // void main() {

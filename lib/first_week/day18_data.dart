@@ -9,7 +9,7 @@ class Day18 extends StatefulWidget {
 }
 
 class _Day18State extends State<Day18> {
-  dataText data;
+  DataText data;
   dynamic data1;
   @override 
   void initState() {
@@ -33,10 +33,10 @@ class _Day18State extends State<Day18> {
           Container(
           height: 100,
           width: 100,
-          child: Image(image: NetworkImage(data.picUrl),fit: BoxFit.cover,),
+          child: Image(image: NetworkImage(data.$picUrl),fit: BoxFit.cover,),
           ),
-          Text('名字:'+data.name),
-          Text("专辑数量："+data.albumSize.toString()+'首')
+          Text('名字:'+data.$name),
+          Text("专辑数量："+data.$albumSize.toString()+'首')
           
         ],
         ),
@@ -51,7 +51,7 @@ class _Day18State extends State<Day18> {
         print("返回值："+res.toString());
         data1 = res.data;
         print("返回的结果"+data1['result']['tracks'][0]['artists'][0].toString());
-        data = dataText.fromJson(data1['result']['tracks'][0]['artists'][0]);
+        data = DataText.fromJson(data1['result']['tracks'][0]['artists'][0]);
       });
     } );
   }

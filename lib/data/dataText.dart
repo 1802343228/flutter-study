@@ -1,4 +1,4 @@
-class dataText {
+class DataText {
   String _name;
   int _id;
   int _picId;
@@ -36,30 +36,30 @@ class dataText {
     this._topicPerson = topicPerson;
   }
 
-  String get name => _name;
+  String get $name => _name;
   set name(String name) => _name = name;
-  int get id => _id;
+  int get $id => _id;
   set id(int id) => _id = id;
-  int get picId => _picId;
+  int get $picId => _picId;
   set picId(int picId) => _picId = picId;
-  int get img1v1Id => _img1v1Id;
+  int get $img1v1Id => _img1v1Id;
   set img1v1Id(int img1v1Id) => _img1v1Id = img1v1Id;
-  String get briefDesc => _briefDesc;
+  String get $briefDesc => _briefDesc;
   set briefDesc(String briefDesc) => _briefDesc = briefDesc;
-  String get picUrl => _picUrl;
+  String get $picUrl => _picUrl;
   set picUrl(String picUrl) => _picUrl = picUrl;
-  String get img1v1Url => _img1v1Url;
+  String get $img1v1Url => _img1v1Url;
   set img1v1Url(String img1v1Url) => _img1v1Url = img1v1Url;
-  int get albumSize => _albumSize;
+  int get $albumSize => _albumSize;
   set albumSize(int albumSize) => _albumSize = albumSize;
-  String get trans => _trans;
+  String get $trans => _trans;
   set trans(String trans) => _trans = trans;
-  int get musicSize => _musicSize;
+  int get $musicSize => _musicSize;
   set musicSize(int musicSize) => _musicSize = musicSize;
-  int get topicPerson => _topicPerson;
+  int get $topicPerson => _topicPerson;
   set topicPerson(int topicPerson) => _topicPerson = topicPerson;
 
-  dataText.fromJson(Map<String, dynamic> json) {
+  DataText.fromJson(Map<String, dynamic> json) {
     _name = json['name'];
     _id = json['id'];
     _picId = json['picId'];
