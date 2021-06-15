@@ -21,7 +21,9 @@ class _ImageStuState extends State<ImageStu> {
         //     "src",
         //     fit: BoxFit.cover,
         //     width: 100,
-        //     height: 100,
+        //     hei
+        
+        //ght: 100,
         //     )
         // ),
         decoration:BoxDecoration(
