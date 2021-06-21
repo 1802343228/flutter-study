@@ -42,7 +42,7 @@ class _ImageStuState extends State<ImageStu> {
           ),
           image: DecorationImage( 
             image: NetworkImage("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg"),
-            fit: BoxFit.cover //圆形图片
+            fit: BoxFit.cover //整体拉伸图片
         ),
         ),
       ),
