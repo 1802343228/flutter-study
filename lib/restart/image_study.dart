@@ -19,6 +19,7 @@ class _ImageStuState extends State<ImageStu> {
         // child: ClipOval(
         //   child:Image.network(
         //     "src",
+
         //     fit: BoxFit.cover,
         //     width: 100,
         //     hei
@@ -46,6 +47,37 @@ class _ImageStuState extends State<ImageStu> {
         ),
         ),
       ),
+    );
+  }
+}
+
+//圆角图片
+class ContentWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(16),
+        child: Image.network(
+          "https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg",
+        width: 150,
+        height: 150,
+        ),
+      ),
+    );
+  }
+}
+
+//圆形图片
+class AssetsImageDemo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ClipOval(
+      child:Image.network(
+        "https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg",
+        width: 150,
+        height: 150,
+        )
     );
   }
 }
