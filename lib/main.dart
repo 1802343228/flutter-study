@@ -24,7 +24,8 @@ import 'package:flutter/material.dart';
 // import 'first_week/day22_animation.dart';
 // import 'first_week/day23_shared_preferences.dart';
 // import 'restart/text_style.dart';
-import 'restart/container_text.dart';
+// import 'restart/container_text.dart';
+import 'restart/frombiaodan.dart';
 
 
 
@@ -41,11 +42,11 @@ class MyApp extends StatelessWidget{
         appBar: AppBar(
           title:Text('Flutter Demo')
         ),
-        body: Conta(),
+        body: FormBiaodanWidget(),
         ),
-        theme: ThemeData(//配置应用颜色主题
-          primarySwatch: Colors.yellow
-        ),
+        // theme: ThemeData(//配置应用颜色主题
+        //   primarySwatch: Colors.yellow
+        // ),
     );
     // return MaterialApp(
     //   //去除右上角debug
