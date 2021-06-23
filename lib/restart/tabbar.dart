@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:hello/components/tabbaritem.dart';
-import 'package:hello/views/home.dart';
-import 'package:hello/views/mall.dart';
-import 'package:hello/views/group.dart';
-import 'package:hello/views/profile.dart';
-import 'package:hello/views/subject.dart';
+import 'package:hello/views/home/home.dart';
+import 'package:hello/views/mall/mall.dart';
+import 'package:hello/views/group/group.dart';
+import 'package:hello/views/profile/profile.dart';
+import 'package:hello/views/subject/subject.dart';
 
 class TabbarStu extends StatefulWidget {
   @override

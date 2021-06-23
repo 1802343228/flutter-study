@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello/components/star_rating.dart';
 class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -7,7 +8,9 @@ class Profile extends StatelessWidget {
         title:Text("小组3"),
       ),
       body:Center(
-        child:Text("小组3",style:TextStyle(fontSize: 50)),
+        child:StarRating(
+          rating: 8,
+        )
       )
     );
   }

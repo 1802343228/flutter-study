@@ -25,8 +25,8 @@ import 'package:flutter/material.dart';
 // import 'first_week/day23_shared_preferences.dart';
 // import 'restart/text_style.dart';
 // import 'restart/container_text.dart';
-// import 'restart/frombiaodan.dart';
-import 'restart/tabbar.dart';
+import 'restart/frombiaodan.dart';
+// import 'restart/tabbar.dart';
 
 
 
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget{
         // appBar: AppBar(
         //   title:Text('Flutter Demo')
         // ),
-        body: TabbarStu(),
+        body: FormBiaodanWidget(),
         ),
         theme: ThemeData(//配置应用颜色主题
           primaryColor: Colors.green,
