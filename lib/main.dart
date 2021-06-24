@@ -25,10 +25,10 @@ import 'package:flutter/material.dart';
 // import 'first_week/day23_shared_preferences.dart';
 // import 'restart/text_style.dart';
 // import 'restart/container_text.dart';
-import 'restart/frombiaodan.dart';
+// import 'restart/frombiaodan.dart';
 // import 'restart/tabbar.dart';
-
-
+// import 'shili/bottom_navgation/bottom_navgation_widget.dart';
+import 'shili/buguize_bottom/bottom_appbar_buguize.dart';
 
 
 void main(){
@@ -43,10 +43,11 @@ class MyApp extends StatelessWidget{
         // appBar: AppBar(
         //   title:Text('Flutter Demo')
         // ),
-        body: FormBiaodanWidget(),
+        body: BottomAppBarDemo(),
+        // body: FormBiaodanWidget()
         ),
         theme: ThemeData(//配置应用颜色主题
-          primaryColor: Colors.green,
+          primaryColor: Colors.blue,
           highlightColor: Colors.transparent, //去除高亮
           splashColor: Colors.transparent //去除水波纹效果
         ),

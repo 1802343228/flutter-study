@@ -9,7 +9,7 @@ class Profile extends StatelessWidget {
       ),
       body:Center(
         child:StarRating(
-          rating: 8,
+          rating: 6.8,
         )
       )
     );

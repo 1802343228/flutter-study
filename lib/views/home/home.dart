@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hello/network/http_request.dart';
+// import 'package:hello/network/http_request.dart';
 import 'package:hello/models/home_model.dart';
-import 'package:hello/views/home/childCpns/movie_list_item.dart';
+// import 'package:hello/views/home/childCpns/movie_list_item.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -26,31 +26,31 @@ class _HomeBodyState extends State<HomeBody> {
   @override
   void initState() {
     super.initState();
-    HttpRequest.request("https://douban.uieee.com/v2/movie/top250?start=0&count=20")
-    .then((res){
-      final subjects = res.data["subjects"];
-      List<MovieItem> movies = [];
-      for(var sub in subjects) {
-        movies.add(MovieItem.fromMap(sub));
-      }
-      setState(() {
-        this.movieItems = movies;
-      });
+    // HttpRequest.request("https://douban.uieee.com/v2/movie/top250?start=0&count=20")
+    // .then((res){
+    //   final subjects = res.data["subjects"];
+    //   List<MovieItem> movies = [];
+    //   for(var sub in subjects) {
+    //     movies.add(MovieItem.fromMap(sub));
+    //   }
+    //   setState(() {
+    //     this.movieItems = movies;
+    //   });
       
-    }).catchError((onError) {
-      print(onError);
-    });
+    // }).catchError((onError) {
+    //   print(onError);
+    // });
   }
 
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: ListView.builder(
-        itemCount: movieItems.length,
-        itemBuilder: (BuildContext context,int index) {
-          return MovieListItem(movieItems[index]);
-        },
-      ),
+      // child: ListView.builder(
+      //   itemCount: movieItems.length,
+      //   itemBuilder: (BuildContext context,int index) {
+      //     return MovieListItem(movieItems[index]);
+      //   },
+      // ),
     );
   }
 }
