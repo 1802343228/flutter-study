@@ -28,7 +28,8 @@ import 'package:flutter/material.dart';
 // import 'restart/frombiaodan.dart';
 // import 'restart/tabbar.dart';
 // import 'shili/bottom_navgation/bottom_navgation_widget.dart';
-import 'shili/buguize_bottom/bottom_appbar_buguize.dart';
+// import 'shili/buguize_bottom/bottom_appbar_buguize.dart';
+import 'shili/router_canvas/router_cavas.dart';
 
 
 void main(){
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget{
         // appBar: AppBar(
         //   title:Text('Flutter Demo')
         // ),
-        body: BottomAppBarDemo(),
+        body: FirstPage(),
         // body: FormBiaodanWidget()
         ),
         theme: ThemeData(//配置应用颜色主题
