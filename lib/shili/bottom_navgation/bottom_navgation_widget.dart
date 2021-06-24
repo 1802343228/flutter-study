@@ -11,7 +11,7 @@ class BottomNavgationWidget extends StatefulWidget {
 }
 
 class _BottomNavgationWidgetState extends State<BottomNavgationWidget> {
-  final _BottomNavgationColor = Colors.blue;
+  final _bottomNavgationColor = Colors.blue;
   int _currentIndex = 0;
   List<Widget> list = List();
 
@@ -34,41 +34,41 @@ class _BottomNavgationWidgetState extends State<BottomNavgationWidget> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.home,
-              color: _BottomNavgationColor,
+              color: _bottomNavgationColor,
             ),
             title: Text(
               'Home',
-              style:TextStyle(color: _BottomNavgationColor)
+              style:TextStyle(color: _bottomNavgationColor)
             )
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.email,
-              color: _BottomNavgationColor,
+              color: _bottomNavgationColor,
             ),
             title: Text(
               'Email',
-              style:TextStyle(color: _BottomNavgationColor)
+              style:TextStyle(color: _bottomNavgationColor)
             )
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.pages,
-              color: _BottomNavgationColor,
+              color: _bottomNavgationColor,
             ),
             title: Text(
               'Pages',
-              style:TextStyle(color: _BottomNavgationColor)
+              style:TextStyle(color: _bottomNavgationColor)
             )
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.airplay,
-              color: _BottomNavgationColor,
+              color: _bottomNavgationColor,
             ),
             title: Text(
               'Airplay',
-              style:TextStyle(color: _BottomNavgationColor)
+              style:TextStyle(color: _bottomNavgationColor)
             )
           )
         ],

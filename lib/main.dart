@@ -29,7 +29,9 @@ import 'package:flutter/material.dart';
 // import 'restart/tabbar.dart';
 // import 'shili/bottom_navgation/bottom_navgation_widget.dart';
 // import 'shili/buguize_bottom/bottom_appbar_buguize.dart';
-import 'shili/router_canvas/router_cavas.dart';
+// import 'shili/router_canvas/router_cavas.dart';
+// import 'shili/maoboli/frosted_class_demo.dart';
+import 'shili/keep_state/keep_alive_demo.dart';
 
 
 void main(){
@@ -44,7 +46,7 @@ class MyApp extends StatelessWidget{
         // appBar: AppBar(
         //   title:Text('Flutter Demo')
         // ),
-        body: FirstPage(),
+        body: KeepAliveDemo(),
         // body: FormBiaodanWidget()
         ),
         theme: ThemeData(//配置应用颜色主题
